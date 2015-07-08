@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4586B8CF1B46DF0D00FD1022 /* JobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4586B8CE1B46DF0D00FD1022 /* JobViewController.m */; };
 		45EACAFE1B421945001824D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EACAFD1B421945001824D6 /* main.m */; };
 		45EACB011B421945001824D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EACB001B421945001824D6 /* AppDelegate.m */; };
-		45EACB041B421945001824D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EACB031B421945001824D6 /* ViewController.m */; };
 		45EACB071B421945001824D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45EACB051B421945001824D6 /* Main.storyboard */; };
 		45EACB091B421945001824D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45EACB081B421945001824D6 /* Images.xcassets */; };
 		45EACB0C1B421946001824D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45EACB0A1B421945001824D6 /* LaunchScreen.xib */; };
 		45EACB181B421946001824D6 /* thegravybookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EACB171B421946001824D6 /* thegravybookTests.m */; };
+		45EACB261B421D99001824D6 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EACB251B421D99001824D6 /* NewViewController.m */; };
+		45F521091B42EE9B007BBB19 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F521081B42EE9B007BBB19 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +29,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4586B8CD1B46DF0D00FD1022 /* JobViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobViewController.h; sourceTree = "<group>"; };
+		4586B8CE1B46DF0D00FD1022 /* JobViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobViewController.m; sourceTree = "<group>"; };
 		45EACAF81B421945001824D6 /* thegravybook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thegravybook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45EACAFC1B421945001824D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45EACAFD1B421945001824D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		45EACAFF1B421945001824D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		45EACB001B421945001824D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		45EACB021B421945001824D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		45EACB031B421945001824D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		45EACB061B421945001824D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45EACB081B421945001824D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		45EACB0B1B421946001824D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		45EACB111B421946001824D6 /* thegravybookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thegravybookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45EACB161B421946001824D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45EACB171B421946001824D6 /* thegravybookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = thegravybookTests.m; sourceTree = "<group>"; };
+		45EACB241B421D99001824D6 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		45EACB251B421D99001824D6 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		45F521071B42EE9B007BBB19 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		45F521081B42EE9B007BBB19 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +89,13 @@
 			children = (
 				45EACAFF1B421945001824D6 /* AppDelegate.h */,
 				45EACB001B421945001824D6 /* AppDelegate.m */,
-				45EACB021B421945001824D6 /* ViewController.h */,
-				45EACB031B421945001824D6 /* ViewController.m */,
 				45EACB051B421945001824D6 /* Main.storyboard */,
+				4586B8CD1B46DF0D00FD1022 /* JobViewController.h */,
+				4586B8CE1B46DF0D00FD1022 /* JobViewController.m */,
+				45EACB241B421D99001824D6 /* NewViewController.h */,
+				45EACB251B421D99001824D6 /* NewViewController.m */,
+				45F521071B42EE9B007BBB19 /* MainViewController.h */,
+				45F521081B42EE9B007BBB19 /* MainViewController.m */,
 				45EACB081B421945001824D6 /* Images.xcassets */,
 				45EACB0A1B421945001824D6 /* LaunchScreen.xib */,
 				45EACAFB1B421945001824D6 /* Supporting Files */,
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45EACB041B421945001824D6 /* ViewController.m in Sources */,
 				45EACB011B421945001824D6 /* AppDelegate.m in Sources */,
 				45EACAFE1B421945001824D6 /* main.m in Sources */,
+				4586B8CF1B46DF0D00FD1022 /* JobViewController.m in Sources */,
+				45EACB261B421D99001824D6 /* NewViewController.m in Sources */,
+				45F521091B42EE9B007BBB19 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +428,7 @@
 				45EACB1D1B421946001824D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45EACB1E1B421946001824D6 /* Build configuration list for PBXNativeTarget "thegravybookTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				45EACB201B421946001824D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
